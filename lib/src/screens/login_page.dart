@@ -61,6 +61,7 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
         onPressed: () {
           if (formkey.currentState!.validate()) {
             formkey.currentState!.save();
+            formkey.currentState!.reset();
           }
         },
         child: Text("Submit"));
