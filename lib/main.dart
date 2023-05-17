@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:login_stateful/src/app.dart';
 
 void main(List<String> args) {
-  return runApp(MyApp());
+  return runApp(App());
 }
 
-class MyApp extends StatelessWidget {
-  Widget build(BuildContext context) {
-    return MaterialApp();
-  }
-}
+
